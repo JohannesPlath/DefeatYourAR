@@ -6,8 +6,8 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     private Rigidbody rb;
-    public float force = 150.0f;
-    public float speed = 2.5f;
+    public float force = 130.0f;
+    public float speedUp = 20.5f;
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -36,7 +36,7 @@ public class Shoot : MonoBehaviour
     {
         Debug.Log(" @  ShootBullet() + transform.right * force * -1.0f "  + transform.right * force * -1.0f);
         rb.isKinematic = false;
-        rb.AddForce(transform.right * force * -1.0f);
+        rb.AddForce(transform.forward * force + transform.up * speedUp);
         
     }
 }

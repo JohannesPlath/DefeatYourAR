@@ -16,6 +16,7 @@ TagManager:
   - Cannon
   - Trees
   - Useless
+  - Plane
   layers:
   - Default
   - TransparentFX
