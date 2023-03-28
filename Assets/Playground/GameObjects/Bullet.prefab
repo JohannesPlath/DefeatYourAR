@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 5958819678336127113}
   - component: {fileID: 7852144812011085694}
   - component: {fileID: 1204288834546703639}
-  - component: {fileID: 4186302795523803993}
+  - component: {fileID: 5363307004014723186}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Cannon
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6646600723528481953}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.752, y: 0.254, z: -0.139}
-  m_LocalScale: {x: 0.74288005, y: 0.74288005, z: 0.74288005}
+  m_LocalScale: {x: 0.7866218, y: 0.7866218, z: 0.7866218}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -105,7 +105,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
+  m_Radius: 0.4981604
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1204288834546703639
 Rigidbody:
@@ -134,7 +134,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4186302795523803993
+--- !u!114 &5363307004014723186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,4 +147,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 130
-  speedUp: 40
+  speedUp: 30
