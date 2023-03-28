@@ -36,6 +36,7 @@ extern void placeOnPlane__ctor_mB5A7630DAB48A1F352D040C60484805FB8D411B0 (void);
 extern void PlaceToShoot_Awake_m754588970CD5D1D64027AF27CFC059E4BC213BD2 (void);
 extern void PlaceToShoot_Update_m72F361F4708BCB3D41D903E67F0909E838EB0AF4 (void);
 extern void PlaceToShoot_HandlePlaneInteraction_mF826B075DA043C7F77C62EE8188988FE7A4E4337 (void);
+extern void PlaceToShoot_OnDestroyGameObject_mA3A96F93474E907C8F88F19494A941A8E7DD6AD9 (void);
 extern void PlaceToShoot_UpdatePrefab_m4068E55813DE878B39BF779DC668A2745FF9F13E (void);
 extern void PlaceToShoot__ctor_m2772F26CE7BA85913D5B87F3B84E14E0A8E93923 (void);
 extern void Shoot_Awake_mD6FA1A5E9BEAB511059AC64A089600218CCE9E0E (void);
@@ -48,7 +49,7 @@ extern void CTI_SRP_CustomWind_Init_mBB8ABEC7C634A6E7E126F398668EDAA889FDA86E (v
 extern void CTI_SRP_CustomWind_OnValidate_mB759F68B41ADDE3F6D1D580C72D9AD8DECA093EC (void);
 extern void CTI_SRP_CustomWind_Update_mFC3A78319CE7C205E101B92714A007CFEBD73609 (void);
 extern void CTI_SRP_CustomWind__ctor_m97503A235088B6259212AE5F71B0A147EFA43CEA (void);
-static Il2CppMethodPointer s_methodPointers[41] = 
+static Il2CppMethodPointer s_methodPointers[42] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -79,6 +80,7 @@ static Il2CppMethodPointer s_methodPointers[41] =
 	PlaceToShoot_Awake_m754588970CD5D1D64027AF27CFC059E4BC213BD2,
 	PlaceToShoot_Update_m72F361F4708BCB3D41D903E67F0909E838EB0AF4,
 	PlaceToShoot_HandlePlaneInteraction_mF826B075DA043C7F77C62EE8188988FE7A4E4337,
+	PlaceToShoot_OnDestroyGameObject_mA3A96F93474E907C8F88F19494A941A8E7DD6AD9,
 	PlaceToShoot_UpdatePrefab_m4068E55813DE878B39BF779DC668A2745FF9F13E,
 	PlaceToShoot__ctor_m2772F26CE7BA85913D5B87F3B84E14E0A8E93923,
 	Shoot_Awake_mD6FA1A5E9BEAB511059AC64A089600218CCE9E0E,
@@ -92,7 +94,7 @@ static Il2CppMethodPointer s_methodPointers[41] =
 	CTI_SRP_CustomWind_Update_mFC3A78319CE7C205E101B92714A007CFEBD73609,
 	CTI_SRP_CustomWind__ctor_m97503A235088B6259212AE5F71B0A147EFA43CEA,
 };
-static const int32_t s_InvokerIndices[41] = 
+static const int32_t s_InvokerIndices[42] = 
 {
 	6686,
 	5366,
@@ -123,6 +125,7 @@ static const int32_t s_InvokerIndices[41] =
 	6807,
 	6807,
 	5455,
+	6807,
 	5366,
 	6807,
 	6807,
@@ -140,7 +143,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	41,
+	42,
 	s_methodPointers,
 	0,
 	NULL,
