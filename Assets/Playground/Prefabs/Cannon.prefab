@@ -247,7 +247,7 @@ Transform:
   - {fileID: 6554062888659710215}
   - {fileID: 797687441316357157}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &8123087097624339265
 BoxCollider:
@@ -314,7 +314,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 3750635407577932241}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: Shoot, Assembly-CSharp
           m_MethodName: ShootBullet
           m_Mode: 1
@@ -339,11 +339,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bullet
       objectReference: {fileID: 0}
-    - target: {fileID: 6646600723528481953, guid: f52537e345bf44e47a60491964f48a25,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     - target: {fileID: 9114745336281657411, guid: f52537e345bf44e47a60491964f48a25,
         type: 3}
       propertyPath: m_RootOrder
@@ -357,12 +352,12 @@ PrefabInstance:
     - target: {fileID: 9114745336281657411, guid: f52537e345bf44e47a60491964f48a25,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.672
       objectReference: {fileID: 0}
     - target: {fileID: 9114745336281657411, guid: f52537e345bf44e47a60491964f48a25,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.333
+      value: 0.058
       objectReference: {fileID: 0}
     - target: {fileID: 9114745336281657411, guid: f52537e345bf44e47a60491964f48a25,
         type: 3}
@@ -410,15 +405,3 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8462228614346495078}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3750635407577932241 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4711626261127738807, guid: f52537e345bf44e47a60491964f48a25,
-    type: 3}
-  m_PrefabInstance: {fileID: 8462228614346495078}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58331583a5b322f4bb4acd5440972398, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
