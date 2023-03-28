@@ -207,7 +207,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -239,7 +239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2546579694142199051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.99197, y: 0, z: -3.4338}
+  m_LocalPosition: {x: -0.99197, y: 1, z: -3.4338}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -268,8 +268,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0659995, y: 1.7630566, z: 3.2484274}
-  m_Center: {x: -1.0920471, y: 0.15880875, z: -1.1242137}
+  m_Size: {x: 2.0659995, y: 2.104531, z: 3.2484274}
+  m_Center: {x: -1.0920471, y: 0.32954538, z: -1.1242137}
 --- !u!54 &2200411595282905976
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -314,7 +314,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 5726146749893910335}
           m_TargetAssemblyTypeName: Shoot, Assembly-CSharp
           m_MethodName: ShootBullet
           m_Mode: 1
@@ -405,3 +405,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8462228614346495078}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5726146749893910335 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4186302795523803993, guid: f52537e345bf44e47a60491964f48a25,
+    type: 3}
+  m_PrefabInstance: {fileID: 8462228614346495078}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58331583a5b322f4bb4acd5440972398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

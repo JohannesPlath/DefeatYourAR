@@ -34,7 +34,7 @@ public class Shoot : MonoBehaviour
 
     public void ShootBullet()
     {
-        Debug.Log(" @  ShootBullet() + transform.right * force * -1.0f "  + transform.right * force * -1.0f);
+        Debug.Log(" @  ShootBullet() + transform.right * force * -1.0f "  + transform.right * force * -1.0f +  "transform.up * speedUp" + transform.up * speedUp);
         rb.isKinematic = false;
         rb.AddForce(transform.forward * force + transform.up * speedUp);
         

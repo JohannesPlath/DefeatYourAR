@@ -43,7 +43,7 @@ public class PlaceToShoot : MonoBehaviour
             Debug.Log("hit.collider.gameObject.name: " + hit.collider.gameObject.name);
             if (!hit.collider.gameObject.name.Contains("ARPlane"))
             {
-                Debug.Log("hit.collider.gameObject.name.Contains('ARPlane'): " +
+                Debug.Log("!!!!   hit.collider.gameObject.name.Contains('ARPlane'): " +
                           hit.collider.gameObject.name.Contains("ARPlane"));
             }
             else if (arRaycastManager.Raycast(touchPos, rcHits, TrackableType.PlaneWithinPolygon))
@@ -51,7 +51,17 @@ public class PlaceToShoot : MonoBehaviour
                 var hitPos = rcHits[0].pose;
 
                 if (!placedPrefabList.Contains(prefabToPlace.name))
-                {
+                {   
+                    Debug.Log("@ Place To Shoot with !placedPrefabList.Contains(prefabToPlace.name)");
+                    GameObject instantiatedObj = Instantiate(prefabToPlace, hitPos.position, hitPos.rotation);
+                    placedPrefabList.Add(prefabToPlace.name);
+                }
+                else if (prefabToPlace.name  == "Cannon")
+                {   
+                    Debug.Log( "@ PlaceToShoot else if (prefabToPlace.name + '(Clone)' == 'Cannon(clone)')");
+                    objectToReplace = GameObject.Find(prefabToPlace.name + "(Clone)");
+                    Destroy(objectToReplace);
+                    placedPrefabList.Remove(prefabToPlace.name);
                     GameObject instantiatedObj = Instantiate(prefabToPlace, hitPos.position, hitPos.rotation);
                     placedPrefabList.Add(prefabToPlace.name);
                 }
@@ -62,6 +72,11 @@ public class PlaceToShoot : MonoBehaviour
                 }
             }
         }
+    }
+
+    private void OnDestroyGameObject()
+    {
+        
     }
 
     public void UpdatePrefab(GameObject newPrefab)
