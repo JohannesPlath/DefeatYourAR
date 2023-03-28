@@ -1183,8 +1183,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planes
       objectReference: {fileID: 0}
+    - target: {fileID: 7628107695091269269, guid: 8874f59f771d3c642a4c388f894e9286,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4964441339162560564, guid: 8874f59f771d3c642a4c388f894e9286, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8874f59f771d3c642a4c388f894e9286, type: 3}

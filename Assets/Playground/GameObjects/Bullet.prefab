@@ -147,4 +147,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 130
-  speedUp: 20.5
+  speedUp: 40
