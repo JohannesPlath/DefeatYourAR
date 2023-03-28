@@ -66,10 +66,15 @@ public class PlaceToShoot : MonoBehaviour
                     placedPrefabList.Add(prefabToPlace.name);
                 }
                 else
-                {
-                    objectToReplace = GameObject.Find(prefabToPlace.name + "(Clone)");
-                    objectToReplace.transform.position = hitPos.position;
+                {   
+                    Debug.Log("prefabToPlace.name == Cannon: " + prefabToPlace.name);
+                    if (prefabToPlace.name == "Cannon") 
+                    {   Debug.Log("prefabToPlace.name == Cannon");
+                        objectToReplace = GameObject.Find(prefabToPlace.name + "(Clone)");
+                        objectToReplace.transform.position = hitPos.position;
+                    }
                 }
+            
             }
         }
     }
