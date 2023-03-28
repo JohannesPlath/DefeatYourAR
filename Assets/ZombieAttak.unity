@@ -950,7 +950,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52647157dbe9b5b4b84729515de52dbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToPlace: {fileID: 100000, guid: 6b4b29e49f76c9f46b7f3594d299d8d9, type: 3}
+  prefabToPlace: {fileID: 7001000017249837117, guid: 55f3b6fbccf4e134f9ac86c569659989,
+    type: 3}
 --- !u!114 &1108130280
 MonoBehaviour:
   m_ObjectHideFlags: 0
