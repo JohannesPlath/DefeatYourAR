@@ -9,8 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5326919317535024907}
-  - component: {fileID: -9126906553746944953}
-  - component: {fileID: 7039333489591818472}
   m_Layer: 0
   m_Name: Zombies
   m_TagString: Zombie
@@ -36,55 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &-9126906553746944953
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 76144115980936707}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!54 &7039333489591818472
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 76144115980936707}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &119290407964623993
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,7 +700,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768956610096168660}
   m_LocalRotation: {x: -0.010293085, y: 0.4483379, z: 0.02051485, w: 0.89356947}
-  m_LocalPosition: {x: -2.3153632, y: -2.9766688, z: -2.4299996}
+  m_LocalPosition: {x: -2.3153632, y: 2.976669, z: -2.4299996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5725,7 +5674,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5408790559478267863}
   m_LocalRotation: {x: -0.0219958, y: -0.80166686, z: -0.0065568853, w: 0.59733033}
-  m_LocalPosition: {x: -2.0062299, y: -2.8909996, z: 3.1238437}
+  m_LocalPosition: {x: -2.0062299, y: 2.891, z: 3.1238437}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8551,7 +8500,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8453650498418374332}
   m_LocalRotation: {x: -0.018180497, y: 0.01582811, z: 0.014009882, w: 0.9996113}
-  m_LocalPosition: {x: -2.14481, y: -2.8329995, z: -0.5261331}
+  m_LocalPosition: {x: -2.14481, y: 2.832999, z: -0.5261331}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
