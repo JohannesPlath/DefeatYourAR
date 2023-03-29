@@ -18,7 +18,7 @@ TagManager:
   - Useless
   - Plane
   - Explosion
-  - exsplosion
+  - scoreboard
   layers:
   - Default
   - TransparentFX

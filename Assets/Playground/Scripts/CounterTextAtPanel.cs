@@ -9,21 +9,23 @@ public class CounterAtPanel : MonoBehaviour
 
     public TMP_Text counterText;
     private string text = "Killed Zombies: ";
-    // Start is called before the first frame update
+    private int counter = 0;
+    
+  
     void Start()
     {
-        counterText.text = text;
-        
+        counterText.text = text + counter;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        counterText.text = text + counter;
     }
 
-    void SetText(int count)
-    {
-        text = text + count;
+    public void SetText(int count)
+    {   
+        Debug.Log("@CounterTextAtPlane Set Counter + count:  " + count);
+        counter = count;
     }
 }

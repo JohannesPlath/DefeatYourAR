@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.PlayerLoop;
 
 public class CollisionDedection : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class CollisionDedection : MonoBehaviour
     private GameObject bullet;
     private static int counter = 0;
     public GameObject exp;
+    public CounterAtPanel display;
+    
     void OnCollisionEnter(Collision collision)
     {
         bullet = GameObject.Find("Bullet");
@@ -16,20 +19,17 @@ public class CollisionDedection : MonoBehaviour
         if (collision.gameObject.tag == "Zombie")
         {
             objectToDelete = GameObject.Find(collision.gameObject.name);
-            
-            //Debug.Log(" Try FInd BUllet + gameObject :   " + bullet);
             counter += 1;
-            //Debug.Log("Counter: " + counter);
             TryToDestroy(objectToDelete);
             TryToDestroy(bullet);
             Explosion(bullet);
+            SetDisplay();
         }
         else if (collision.gameObject.tag == "Trees")
         {   
             Explosion(bullet);
         }
     }
-
     
     private void TryToDestroy(GameObject ob)
         {   
@@ -41,7 +41,12 @@ public class CollisionDedection : MonoBehaviour
         GameObject _exp = Instantiate(this.exp, transform.position, transform.rotation);
         Destroy(_exp, 1.5f);
         Destroy(ob);
-        
+    }
+
+    public void SetDisplay()
+    {
+        display = GameObject.Find("TMP_CounterDisplay").GetComponent<CounterAtPanel>();
+        display.SetText(counter);
     }
     
 }
