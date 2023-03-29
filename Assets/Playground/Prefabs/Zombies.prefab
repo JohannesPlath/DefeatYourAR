@@ -806,7 +806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.22
-  _rotation: {x: 0, y: 1, z: 1}
+  _rotation: {x: 0, y: 1, z: 0}
   speedRotation: 15
 --- !u!1 &772675751938136744
 GameObject:
@@ -5796,7 +5796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.05
-  _rotation: {x: 0, y: 1, z: 1}
+  _rotation: {x: 0, y: 1, z: 0}
   speedRotation: 15
 --- !u!1 &5491396719901972263
 GameObject:
@@ -8638,7 +8638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.05
-  _rotation: {x: 0, y: -1, z: -1}
+  _rotation: {x: 0, y: -1, z: 0}
   speedRotation: 15
 --- !u!1 &8457457229075899894
 GameObject:
