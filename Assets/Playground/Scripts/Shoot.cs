@@ -6,8 +6,8 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     private Rigidbody rb;
-    public float force = 130.0f;
-    public float speedUp = 20.5f;
+    [SerializeField] public float force = 500f;
+    [SerializeField] public float speedUp = 30.0f;
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();

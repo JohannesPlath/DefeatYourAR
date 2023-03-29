@@ -794,13 +794,17 @@
         "dependencies": [
           {
             "name": "ParticleSystem",
-            "scenes": [],
+            "scenes": [
+              "Assets/ZombieAttak.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "ParticleSystemRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/ZombieAttak.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           }
@@ -828,6 +832,12 @@
             "scenes": [
               "Assets/ZombieAttak.unity"
             ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "PhysicMaterial",
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },

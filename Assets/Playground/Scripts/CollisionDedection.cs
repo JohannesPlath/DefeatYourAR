@@ -11,17 +11,21 @@ public class CollisionDedection : MonoBehaviour
     public GameObject exp;
     void OnCollisionEnter(Collision collision)
     {
+        bullet = GameObject.Find("Bullet");
        // Debug.Log("------>>>>  @ CollisionDedection +collision.gameObject.tag: " + collision.gameObject.tag);
         if (collision.gameObject.tag == "Zombie")
         {
             objectToDelete = GameObject.Find(collision.gameObject.name);
-            bullet = GameObject.Find("Bullet");
+            
             //Debug.Log(" Try FInd BUllet + gameObject :   " + bullet);
             counter += 1;
-           
             //Debug.Log("Counter: " + counter);
             TryToDestroy(objectToDelete);
             TryToDestroy(bullet);
+            Explosion(bullet);
+        }
+        else if (collision.gameObject.tag == "Trees")
+        {   
             Explosion(bullet);
         }
     }
