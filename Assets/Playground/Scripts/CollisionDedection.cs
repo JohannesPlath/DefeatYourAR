@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CollisionDedection : MonoBehaviour
 {
@@ -16,13 +17,16 @@ public class CollisionDedection : MonoBehaviour
             objectToDelete = GameObject.Find(collision.gameObject.name);
             bullet = GameObject.Find("Bullet");
             //Debug.Log(" Try FInd BUllet + gameObject :   " + bullet);
-            counter += 1; 
+            counter += 1;
+           
             //Debug.Log("Counter: " + counter);
             TryToDestroy(objectToDelete);
             TryToDestroy(bullet);
             Explosion(bullet);
         }
     }
+
+    
     private void TryToDestroy(GameObject ob)
         {   
             Destroy(ob);
