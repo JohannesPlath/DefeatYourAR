@@ -805,9 +805,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f96a21a1ee27bac4484e514dd32c3931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.22
+  speed: 0.05
   _rotation: {x: 0, y: 1, z: 0}
   speedRotation: 15
+  rb: {fileID: 0}
 --- !u!1 &772675751938136744
 GameObject:
   m_ObjectHideFlags: 0
@@ -5798,6 +5799,7 @@ MonoBehaviour:
   speed: 0.05
   _rotation: {x: 0, y: 1, z: 0}
   speedRotation: 15
+  rb: {fileID: 0}
 --- !u!1 &5491396719901972263
 GameObject:
   m_ObjectHideFlags: 0
@@ -8640,6 +8642,7 @@ MonoBehaviour:
   speed: 0.05
   _rotation: {x: 0, y: -1, z: 0}
   speedRotation: 15
+  rb: {fileID: 0}
 --- !u!1 &8457457229075899894
 GameObject:
   m_ObjectHideFlags: 0

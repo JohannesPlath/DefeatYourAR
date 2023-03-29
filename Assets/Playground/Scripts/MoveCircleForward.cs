@@ -12,6 +12,11 @@ public class MoveCircleForward : MonoBehaviour
 
     [SerializeField] private Rigidbody rb;
     //private Animator anim;
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+    
     void Start()
     {
        // anim = GetComponent<Animator>();
