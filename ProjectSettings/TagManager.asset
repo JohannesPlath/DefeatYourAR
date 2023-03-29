@@ -17,6 +17,8 @@ TagManager:
   - Trees
   - Useless
   - Plane
+  - Explosion
+  - exsplosion
   layers:
   - Default
   - TransparentFX
