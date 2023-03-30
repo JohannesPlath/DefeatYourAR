@@ -170,7 +170,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.045
   _rotation: {x: 0, y: -2, z: 0}
-  speedRotation: 20
+  speedRotation: 10
   rb: {fileID: 0}
-  aggroRange: 0.15
+  aggroRange: 0.4
   cannon: {fileID: 0}
