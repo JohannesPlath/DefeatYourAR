@@ -15,7 +15,7 @@ public class Shoot : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp("space")){
+        /*if (Input.GetKeyUp("space")){
             Debug.Log("space has Arrived ");
             rb.isKinematic = false;
             rb.AddForce(transform.right * force * -1.0f);
@@ -24,7 +24,7 @@ public class Shoot : MonoBehaviour
             Debug.Log("Key c has arrived");
             rb.isKinematic = false;
             rb.AddForce(transform.right * force * -1.0f);
-            }
+            }*/
         /*
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         rb.MovePosition(transform.position + direction * (Time.deltaTime * speed));        
@@ -34,9 +34,10 @@ public class Shoot : MonoBehaviour
 
     public void ShootBullet()
     {
-        Debug.Log(" @  ShootBullet() + transform.right * force * -1.0f "  + transform.right * force * -1.0f +  "transform.up * speedUp" + transform.up * speedUp);
+        //Debug.Log(" @  ShootBullet() + transform.right * force * -1.0f "  + transform.right * force * -1.0f +  "transform.up * speedUp" + transform.up * speedUp);
         rb.isKinematic = false;
         rb.AddForce(transform.forward * force + transform.up * speedUp);
-        
+        GameObject bullet = GameObject.Find("Bullet");
+        Destroy(bullet, 5f);
     }
 }

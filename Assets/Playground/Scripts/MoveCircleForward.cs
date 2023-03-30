@@ -11,10 +11,10 @@ public class MoveCircleForward : MonoBehaviour
     [SerializeField] private float speedRotation = 25.0f;
     [SerializeField] private Rigidbody rb;
 
-    [SerializeField] private Vector3 _moveDir;
+    //[SerializeField] private Vector3 _moveDir;
     // für AI
-    [SerializeField] private float aggroRange = 10;
-    [SerializeField] public GameObject cannon;
+    //[SerializeField] private float aggroRange = 10;
+    //[SerializeField] public GameObject cannon;
 
     //private Animator anim;
     private void Awake()
@@ -25,7 +25,7 @@ public class MoveCircleForward : MonoBehaviour
     void Start()
     {
         
-        cannon = GameObject.FindGameObjectWithTag("Cannon");
+        //cannon = GameObject.FindGameObjectWithTag("Cannon");
         // anim = GetComponent<Animator>();
     }
 
@@ -51,15 +51,15 @@ public class MoveCircleForward : MonoBehaviour
             }
         }
         else*/
-            {   
-                //rb.MovePosition(transform.position + _moveDir * (Time.deltaTime * speed));
-                //rb.AddForce(Vector3.forward * (Time.deltaTime * speed));
-                //rb.AddRelativeForce(Vector3.forward * (Time.deltaTime * speed));
-                //transform.Translate(Vector3.forward * (Time.deltaTime * speed));  
-                transform.Rotate(_rotation * (speedRotation * Time.deltaTime));
-                Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-                rb.MovePosition(transform.position + direction * (Time.deltaTime * speed));       
-            }
+        {   
+            //rb.MovePosition(transform.position + _moveDir * (Time.deltaTime * speed));
+            //rb.AddForce(Vector3.forward * (Time.deltaTime * speed));
+            //rb.AddRelativeForce(Vector3.forward * (Time.deltaTime * speed));
+            transform.Translate(Vector3.forward * (Time.deltaTime * speed));  
+            transform.Rotate(_rotation * (speedRotation * Time.deltaTime));
+            Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            //rb.MovePosition(transform.position + direction * (Time.deltaTime * speed));       
+        }
     }
     
    
