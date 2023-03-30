@@ -39,7 +39,7 @@ public class CollisionDedection : MonoBehaviour
     private void Explosion(GameObject ob)
     {
         GameObject _exp = Instantiate(this.exp, transform.position, transform.rotation);
-        Destroy(_exp, 1.5f);
+        Destroy(_exp, 0.5f);
         Destroy(ob);
     }
 
