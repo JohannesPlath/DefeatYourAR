@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 500
-  speedUp: 50
+  speedUp: 10
 --- !u!114 &2584743402434314350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,4 +162,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exp: {fileID: 6768462476659694472, guid: dc0227fcae6fee34ba67c1f9760f9f7c, type: 3}
-  display: {fileID: 0}

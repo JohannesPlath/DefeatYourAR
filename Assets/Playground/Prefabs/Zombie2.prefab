@@ -2250,6 +2250,7 @@ GameObject:
   - component: {fileID: 5002116975331962148}
   - component: {fileID: 3252824486080751889}
   - component: {fileID: 407144009113706080}
+  - component: {fileID: 8198479924502480866}
   m_Layer: 0
   m_Name: Zombie2
   m_TagString: Zombie
@@ -2373,8 +2374,21 @@ MonoBehaviour:
   _rotation: {x: 0, y: 1.5, z: 0}
   speedRotation: 15
   rb: {fileID: 0}
-  aggroRange: 0.03
+  aggroRange: 0.25
   cannon: {fileID: 0}
+--- !u!114 &8198479924502480866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7028594116572431471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c5bc64d94a6542a6d76702a065715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverScreen: {fileID: 0}
 --- !u!1 &7185091536393144701
 GameObject:
   m_ObjectHideFlags: 0

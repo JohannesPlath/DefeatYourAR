@@ -18,7 +18,7 @@ public class CollisionDedection : MonoBehaviour
     {
         bullet = GameObject.Find("Bullet");
        // Debug.Log("------>>>>  @ CollisionDedection +collision.gameObject.tag: " + collision.gameObject.tag);
-        if (collision.gameObject.tag == "Zombie")
+        if (collision.gameObject.CompareTag("Zombie"))
         {
             objectToDelete = GameObject.Find(collision.gameObject.name);
             counter += 1;

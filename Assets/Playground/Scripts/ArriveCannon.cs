@@ -7,12 +7,14 @@ public class ArriveCannon : MonoBehaviour
 {
      public GameOverScreen gameOverScreen;
      private int killedZombies = 0;
-    void OnCollisionEnter(Collision collision)
+     
+    public void OnCollisionEnter(Collision collision)
     {
         //GameObject bullet = GameObject.Find("Bullet");
         Debug.Log("------>>>>  @ CollisionDedection +collision.gameObject.tag: " + collision.gameObject.tag);
-        if (collision.gameObject.tag == "Cannon")
+        if (collision.gameObject.CompareTag("Zombie"))
         {
+            Debug.Log("Zombie Arrived");
             GameOver();
         }
     }
