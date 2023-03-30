@@ -38,6 +38,6 @@ public class Shoot : MonoBehaviour
         rb.isKinematic = false;
         rb.AddForce(transform.forward * force + transform.up * speedUp);
         GameObject bullet = GameObject.Find("Bullet");
-        Destroy(bullet, 5f);
+        Destroy(bullet, 3f);
     }
 }
