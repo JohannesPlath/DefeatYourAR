@@ -10,7 +10,7 @@ public class ArriveCannon : MonoBehaviour
      
     public void OnCollisionEnter(Collision collision)
     {
-        //GameObject bullet = GameObject.Find("Bullet");
+       
         Debug.Log("------>>>>  @ CollisionDedection +collision.gameObject.tag: " + collision.gameObject.tag);
         if (collision.gameObject.CompareTag("Zombie"))
         {
@@ -21,7 +21,8 @@ public class ArriveCannon : MonoBehaviour
 
     public void GameOver()
     {
-        gameOverScreen.Setup(killedZombies);
+        GameControlScript controlScript = GameObject.Find("XR Origin").GetComponent<GameControlScript>();
+        controlScript.GameOver();
     }
     // Update is called once per frame
     void Update()

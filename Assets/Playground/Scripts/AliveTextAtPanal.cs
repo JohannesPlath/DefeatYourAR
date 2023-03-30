@@ -6,9 +6,9 @@ using TMPro;
 public class AliveTextAtPanal : MonoBehaviour
 {
     
-    private int spownedZombies = 0;
-    private int destreyedZombies = 0;
-    private string aliveText = "Liv´n Zombies: ";
+    private int _spownedZombies = 0;
+    private int _destroyedZombies = 0;
+    private string _aliveText = "Living Zombies: ";
     public TMP_Text livingText;
     
     
@@ -21,17 +21,21 @@ public class AliveTextAtPanal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int zombiesAlive = spownedZombies - destreyedZombies;
-        livingText.text = aliveText + zombiesAlive;
+        int zombiesAlive = _spownedZombies - _destroyedZombies;
+        livingText.text = _aliveText + zombiesAlive;
     }
     
     public void RespZombies(int spown)
     {
-        spownedZombies = spown;
+        _spownedZombies = spown;
     }
 
     public void DestrtoyedZombies(int count)
     {
-        destreyedZombies = count;
+        _destroyedZombies = count;
+    }
+    public int GetDestrtoyedZombies()
+    {
+        return _destroyedZombies;
     }
 }

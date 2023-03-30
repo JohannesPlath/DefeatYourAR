@@ -33,4 +33,9 @@ public class CounterTextAtPanel : MonoBehaviour
     {
         spownedZombies = spowned;
     }
+
+    public int GetSpownedZombies()
+    {
+        return spownedZombies;
+    }
 }

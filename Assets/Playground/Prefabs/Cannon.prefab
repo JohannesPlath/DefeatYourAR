@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5756978584015751747}
   - component: {fileID: 1025198089720052991}
   - component: {fileID: 3336528825069518189}
-  - component: {fileID: 6236050176664785446}
   m_Layer: 0
   m_Name: Cart
   m_TagString: Cannon
@@ -107,19 +106,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3596191092224140292, guid: 2b4d67f0693f7b54e9bc63d75d1ddfb1, type: 3}
---- !u!114 &6236050176664785446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1138718163355576221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed5c5bc64d94a6542a6d76702a065715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverScreen: {fileID: 0}
 --- !u!1 &1155396174523441354
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,7 +118,6 @@ GameObject:
   - component: {fileID: 4143895095463302338}
   - component: {fileID: 3822068893261369192}
   - component: {fileID: 3421393935093719376}
-  - component: {fileID: 8875996283427939157}
   m_Layer: 0
   m_Name: Cannon
   m_TagString: Cannon
@@ -227,19 +212,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 369689273696691656, guid: 41c07c2b17db6974d844471b792c518c, type: 3}
---- !u!114 &8875996283427939157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155396174523441354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed5c5bc64d94a6542a6d76702a065715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverScreen: {fileID: 0}
 --- !u!1 &2546579694142199051
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,7 +224,6 @@ GameObject:
   - component: {fileID: 8123087097624339265}
   - component: {fileID: 2200411595282905976}
   - component: {fileID: 5583072635475871044}
-  - component: {fileID: 861195814400421734}
   m_Layer: 0
   m_Name: Cannon
   m_TagString: Cannon
@@ -356,19 +327,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &861195814400421734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2546579694142199051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed5c5bc64d94a6542a6d76702a065715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverScreen: {fileID: 0}
 --- !u!1 &3535306312269280539
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +343,7 @@ GameObject:
   - component: {fileID: 1354682905801153075}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Finish
+  m_TagString: flag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
