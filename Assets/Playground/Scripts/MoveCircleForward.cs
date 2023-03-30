@@ -54,9 +54,11 @@ public class MoveCircleForward : MonoBehaviour
             {   
                 //rb.MovePosition(transform.position + _moveDir * (Time.deltaTime * speed));
                 //rb.AddForce(Vector3.forward * (Time.deltaTime * speed));
-                rb.AddRelativeForce(transform.forward * (Time.deltaTime * speed));
+                //rb.AddRelativeForce(Vector3.forward * (Time.deltaTime * speed));
                 //transform.Translate(Vector3.forward * (Time.deltaTime * speed));  
                 transform.Rotate(_rotation * (speedRotation * Time.deltaTime));
+                Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+                rb.MovePosition(transform.position + direction * (Time.deltaTime * speed));       
             }
     }
     
