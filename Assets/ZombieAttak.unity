@@ -2238,8 +2238,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 407144009113706080, guid: 3eba797795e0c174fa6f1a24b41abedc,
         type: 3}
+      propertyPath: _moveDir.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 407144009113706080, guid: 3eba797795e0c174fa6f1a24b41abedc,
+        type: 3}
+      propertyPath: _moveDir.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 407144009113706080, guid: 3eba797795e0c174fa6f1a24b41abedc,
+        type: 3}
       propertyPath: speedRotation
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3252824486080751889, guid: 3eba797795e0c174fa6f1a24b41abedc,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4133124705122065158, guid: 3eba797795e0c174fa6f1a24b41abedc,
         type: 3}
