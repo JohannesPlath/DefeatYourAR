@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.PlayerLoop;
+using UnityEngine.Serialization;
 
 public class CollisionDedection : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class CollisionDedection : MonoBehaviour
     private GameObject bullet;
     private static int counter = 0;
     public GameObject exp;
-    public CounterAtPanel display;
+    private CounterTextAtPanel counterScript;
+    private AliveTextAtPanal aliveScript;
     
     void OnCollisionEnter(Collision collision)
     {
@@ -25,7 +27,7 @@ public class CollisionDedection : MonoBehaviour
             Explosion(bullet);
             SetDisplay();
         }
-        else if (collision.gameObject.tag == "Trees")
+        else if (collision.gameObject.tag is "Trees" or "Grave")
         {   
             Explosion(bullet);
         }
@@ -45,8 +47,10 @@ public class CollisionDedection : MonoBehaviour
 
     public void SetDisplay()
     {
-        display = GameObject.Find("TMP_CounterDisplay").GetComponent<CounterAtPanel>();
-        display.SetText(counter);
+        counterScript = GameObject.Find("TMP_CounterDisplay").GetComponent<CounterTextAtPanel>();
+        counterScript.SetText(counter);
+        aliveScript = GameObject.Find("TMP_Alivedisplay").GetComponent<AliveTextAtPanal>();
+        aliveScript.DestrtoyedZombies(counter);
     }
     
 }

@@ -19,6 +19,7 @@ TagManager:
   - Plane
   - Explosion
   - scoreboard
+  - Grave
   layers:
   - Default
   - TransparentFX

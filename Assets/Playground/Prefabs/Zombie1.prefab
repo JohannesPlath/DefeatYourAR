@@ -2266,7 +2266,7 @@ Transform:
   m_GameObject: {fileID: 7028594116572431471}
   m_LocalRotation: {x: -0.0155151095, y: -0, z: -0, w: 0.9998797}
   m_LocalPosition: {x: 0, y: 1.5000397, z: 0.0025637546}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 0.07}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8440764495174258375}
@@ -2298,7 +2298,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8f7380da49034cd488ddff94b1ac35d1, type: 3}
   m_Controller: {fileID: 9100000, guid: 2ef8e6599b7f9934e8ff0d64c5325a1f, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 2
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
@@ -2353,9 +2353,9 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &407144009113706080
 MonoBehaviour:
@@ -2369,12 +2369,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f96a21a1ee27bac4484e514dd32c3931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.05
+  speed: 0.02
   _rotation: {x: 0, y: 1, z: 0}
-  speedRotation: 25
+  speedRotation: 15
   rb: {fileID: 0}
-  _moveDir: {x: 0, y: 0, z: 0}
-  aggroRange: 10
+  aggroRange: 0.01
   cannon: {fileID: 0}
 --- !u!1 &7185091536393144701
 GameObject:

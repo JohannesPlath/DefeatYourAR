@@ -4,28 +4,33 @@ using UnityEngine;
 using TMPro;
 
 
-public class CounterAtPanel : MonoBehaviour
+public class CounterTextAtPanel : MonoBehaviour
 {
 
     public TMP_Text counterText;
-    private string text = "Killed Zombies: ";
+    private string killedText = "Killed Zombies: ";
     private int counter = 0;
-    
+    private int spownedZombies = 0;
   
-    void Start()
+    /*void Start()
     {
-        counterText.text = text + counter;
-    }
+        counterText.text = killedText + counter;
+    }*/
 
-    // Update is called once per frame
+   
     void Update()
     {
-        counterText.text = text + counter;
+        counterText.text = killedText + counter;
     }
 
     public void SetText(int count)
     {   
-        Debug.Log("@CounterTextAtPlane Set Counter + count:  " + count);
+        //Debug.Log("@CounterTextAtPlane Set Counter + count:  " + count);
         counter = count;
+    }
+
+    public void RespornedZombies(int spowned)
+    {
+        spownedZombies = spowned;
     }
 }
