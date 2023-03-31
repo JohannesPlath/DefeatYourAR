@@ -16,6 +16,11 @@ TagManager:
   - Cannon
   - Trees
   - Useless
+  - Plane
+  - Explosion
+  - scoreboard
+  - Grave
+  - flag
   layers:
   - Default
   - TransparentFX
