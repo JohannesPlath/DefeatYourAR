@@ -705,7 +705,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You can setup your Envronment to get different difficulties. \nAt first:
+  m_text: "You can setup your Environment to get different difficulties. \nAt first:
     Scan your Ground until you se white dots everywhere.\nSecond: Set up Trees, your
     environment, and tho Zombie spown Grave.\nThird: If you set your Cannon  whre
     ever you like and shoot by tounching a second time.  Now you have to replace
