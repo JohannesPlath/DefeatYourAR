@@ -283,8 +283,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Killed Zobies
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -418,8 +419,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Start Application
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -710,10 +712,11 @@ MonoBehaviour:
     environment, and tho Zombie spown Grave.\nThird: If you set your Cannon  whre
     ever you like and shoot by tounching a second time.  Now you have to replace
     your Cannon, and son on.  But be  carefull, next to your Cannon is the Wand Of
-    Glory, and if a Zombie take notice of him he try to catch him and you\xB4ll fail."
+    Glory, and if a Zombie take notice of him he try to catch him and you will fail."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1013,8 +1016,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Restart...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1281,7 +1285,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &729795758
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1324,8 +1328,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Game Over!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1913,8 +1918,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Welcome to: DefeatYourAR! \n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1944,7 +1950,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2122,8 +2128,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2761,8 +2768,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2909,8 +2917,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Set \nCannon"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3179,8 +3188,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Set Trees
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3405,8 +3415,9 @@ MonoBehaviour:
 
     Spawnpoint'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3618,8 +3629,9 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e367278262a1034aa7632be86666776, type: 2}
+  m_sharedMaterial: {fileID: 8719394466905320807, guid: 8e367278262a1034aa7632be86666776,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
