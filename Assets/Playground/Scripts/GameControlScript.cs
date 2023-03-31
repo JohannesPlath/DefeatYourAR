@@ -16,10 +16,9 @@ public class GameControlScript : MonoBehaviour
     
     
     private int askResults(){
-        counterScript = GameObject.Find("TMP_CounterDisplay").GetComponent<CounterTextAtPanel>();
-        int spownedZombies = counterScript.GetSpownedZombies();
+        // counterScript = GameObject.Find("TMP_CounterDisplay").GetComponent<CounterTextAtPanel>();
+        // int spownedZombies = counterScript.GetSpownedZombies();
         aliveScript = GameObject.Find("TMP_Alivedisplay").GetComponent<AliveTextAtPanal>();
-        int killeZombies = aliveScript.GetDestrtoyedZombies();
-        return (spownedZombies - killeZombies);
+        return aliveScript.GetDestrtoyedZombies();
     }
 }

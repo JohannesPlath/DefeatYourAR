@@ -36,6 +36,6 @@ public class CounterTextAtPanel : MonoBehaviour
 
     public int GetSpownedZombies()
     {
-        return spownedZombies;
+        return counter;
     }
 }
