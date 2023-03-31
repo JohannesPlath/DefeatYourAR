@@ -1281,7 +1281,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &729795758
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1748,7 +1748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd1cb98f7feff94caae9de475714a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsText: {fileID: 63560465}
+  pointsText: {fileID: 0}
 --- !u!4 &824484928
 Transform:
   m_ObjectHideFlags: 0
@@ -1776,7 +1776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f9a885c75708664a89dd6ba24d4346d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameOverScreen: {fileID: 211857100}
+  GameOverScreen: {fileID: 0}
 --- !u!1 &882116335
 GameObject:
   m_ObjectHideFlags: 0
