@@ -11,10 +11,10 @@ public class ArriveCannon : MonoBehaviour
     public void OnCollisionEnter(Collision collision)
     {
        
-        Debug.Log("------>>>>  @ CollisionDedection +collision.gameObject.tag: " + collision.gameObject.tag);
+        //Debug.Log("------>>>>  @ CollisionDedection +collision.gameObject.tag: " + collision.gameObject.tag);
         if (collision.gameObject.CompareTag("Zombie"))
         {
-            Debug.Log("Zombie Arrived");
+            //Debug.Log("Zombie Arrived");
             GameOver();
         }
     }

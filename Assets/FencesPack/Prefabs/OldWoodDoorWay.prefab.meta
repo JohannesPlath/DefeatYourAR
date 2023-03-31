@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 33ed11037bc874f449de8545ea380cad
+guid: 5d3bdc03d17ee2049a68f7ab951eef17
 PrefabImporter:
   externalObjects: {}
   userData: 
@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 211850
   packageName: Realistic Fences Pack
   packageVersion: 1.0
-  assetPath: Assets/FencesPack/Prefabs/OldWoodFence.prefab
+  assetPath: Assets/FencesPack/Prefabs/OldWoodDoorWay.prefab
   uploadId: 482782
