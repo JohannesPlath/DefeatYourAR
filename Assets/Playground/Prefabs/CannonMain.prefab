@@ -225,8 +225,8 @@ GameObject:
   - component: {fileID: 2200411595282905976}
   - component: {fileID: 5583072635475871044}
   m_Layer: 0
-  m_Name: Cannon
-  m_TagString: Cannon
+  m_Name: CannonMain
+  m_TagString: CannonMain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

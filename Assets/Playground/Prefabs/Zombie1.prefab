@@ -2373,7 +2373,7 @@ MonoBehaviour:
   _rotation: {x: 0, y: 0.7, z: 0}
   speedRotation: 10
   rb: {fileID: 0}
-  aggroRange: 0.03
+  aggroRange: 0.25
   cannon: {fileID: 0}
 --- !u!1 &7185091536393144701
 GameObject:

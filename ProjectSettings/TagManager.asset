@@ -21,6 +21,7 @@ TagManager:
   - scoreboard
   - Grave
   - flag
+  - CannonMain
   layers:
   - Default
   - TransparentFX

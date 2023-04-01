@@ -10,7 +10,8 @@ using UnityEngine.SocialPlatforms.Impl;
 public class GameOverScreen : MonoBehaviour
 {
     public TMP_Text pointsText;
-
+    [SerializeField] private GameObject welcomeScreen;
+    [SerializeField] private GameObject XROrigin;
     public void Setup(int score)
     {
         if (gameObject != null) gameObject.SetActive(true);
@@ -19,6 +20,8 @@ public class GameOverScreen : MonoBehaviour
 
     public void RestartButton()
     {
+        Instantiate(XROrigin);
+        Instantiate(welcomeScreen);
         SceneManager.LoadScene("ZombieAttak");
     }
 

@@ -13,6 +13,7 @@ public class CollisionDedection : MonoBehaviour
     public GameObject exp;
     private CounterTextAtPanel counterScript;
     private AliveTextAtPanal aliveScript;
+    [SerializeField] private GameObject cannon;
     
     void OnCollisionEnter(Collision collision)
     {
@@ -40,9 +41,12 @@ public class CollisionDedection : MonoBehaviour
 
     private void Explosion(GameObject ob)
     {
+        cannon = GameObject.FindGameObjectWithTag("CannonMain");
+        Debug.Log("found CannonMain: " + cannon);
         GameObject _exp = Instantiate(this.exp, transform.position, transform.rotation);
         Destroy(_exp, 0.2f);
         Destroy(ob);
+        Destroy(cannon);
     }
 
     public void SetDisplay()

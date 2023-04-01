@@ -56,7 +56,7 @@ public class PlaceToShoot : MonoBehaviour
                     GameObject instantiatedObj = Instantiate(prefabToPlace, hitPos.position, hitPos.rotation);
                     placedPrefabList.Add(prefabToPlace.name);
                 }
-                else if (prefabToPlace.name  == "Cannon")
+                else if (prefabToPlace.name  == "CannonMain")
                 {   
                     Debug.Log( "@ PlaceToShoot else if (prefabToPlace.name + '(Clone)' == 'Cannon(clone)')");
                     objectToReplace = GameObject.Find(prefabToPlace.name + "(Clone)");
@@ -64,6 +64,7 @@ public class PlaceToShoot : MonoBehaviour
                     placedPrefabList.Remove(prefabToPlace.name);
                     GameObject instantiatedObj = Instantiate(prefabToPlace, hitPos.position, hitPos.rotation);
                     placedPrefabList.Add(prefabToPlace.name);
+                    Destroy(instantiatedObj, 3f);
                 }
                 else
                 {   
