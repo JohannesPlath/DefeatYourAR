@@ -5,7 +5,6 @@ using UnityEngine;
 public class GameControlScript : MonoBehaviour
 {
     public GameOverScreen GameOverScreen;
-    
     private CounterTextAtPanel counterScript;
     private AliveTextAtPanal aliveScript;
 
@@ -16,8 +15,6 @@ public class GameControlScript : MonoBehaviour
     
     
     private int askResults(){
-        // counterScript = GameObject.Find("TMP_CounterDisplay").GetComponent<CounterTextAtPanel>();
-        // int spownedZombies = counterScript.GetSpownedZombies();
         aliveScript = GameObject.Find("TMP_Alivedisplay").GetComponent<AliveTextAtPanal>();
         return aliveScript.GetDestrtoyedZombies();
     }

@@ -24,9 +24,5 @@ public class GameOverScreen : MonoBehaviour
         Instantiate(welcomeScreen);
         SceneManager.LoadScene("ZombieAttak");
     }
-
-    /*public void ExitButton()
-    {
-        SceneManager. LoadScene("Quit");
-    }*/
+    
 }
